@@ -1,0 +1,25 @@
+author: r1v3nch
+author_link: https://github.com/Walid-Berrouk
+category: pwn
+connection_info: ncat -v --ssl maskoff.ctf.shellmates.club 443
+description: "> I lost my key file somewhere in my machine, but i have  \n> this program\
+  \ that uses it. Can you retrieve it back to me please ?  \n> Wrap the key in the\
+  \ flag format shellmates{}  \n   \n\n **Author**: r1v3nch"
+difficulty: easy
+extra:
+  decay: 15
+  initial: 500
+  minimum: 50
+files:
+- challenge/chall
+- challenge/chall31
+flags:
+- shellmates{52c2f93c}
+name: MaskOff
+state: hidden
+tags:
+- pwn
+- heap
+type: dynamic
+value: 500
+version: '0.1'

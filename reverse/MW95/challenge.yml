@@ -1,0 +1,24 @@
+author: Muhammad
+category: reverse
+connection_info: ncat -v --ssl mw95.ctf.shellmates.club 443
+description: '> I wrote a cool program but you need a serial key to try it.
+
+
+  **Author** : Muhammad
+
+  '
+difficulty: ezmed
+extra:
+  decay: 15
+  initial: 500
+  minimum: 50
+files:
+- ./challenge/chall
+flags:
+- shellmates{s3R14l_K3YS_4R3_N07_4_G00d_s3cuR17Y_M3ch4N1sm}
+name: MW95
+state: visible
+type: dynamic
+value: 500
+version: '0.1'
+wave: 1

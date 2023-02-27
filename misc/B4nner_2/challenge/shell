@@ -1,0 +1,4 @@
+#!/bin/sh
+
+exec /bin/more -e /home/ctf/banner
+exit 0

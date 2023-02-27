@@ -1,0 +1,25 @@
+author: ouxs-19
+author_link: https://github.com/ouxs-19
+category: misc
+connection_info: ncat -v --ssl is--admin.ctf.shellmates.club 443
+description: |-
+  > Can you prove that you are an admin?
+  > TBH it's impossible.
+
+
+   **Author**: ouxs-19
+difficulty: easy
+extra:
+  decay: 15
+  initial: 500
+  minimum: 50
+files:
+  - challenge/main.py
+flags:
+  - shellmates{4Ft3r_4ll_n0t_soo0_PrYvate}
+name: is__admin
+state: visible
+type: dynamic
+value: 500
+version: '0.1'
+wave: 3

@@ -1,0 +1,76 @@
+{
+    "articles": [
+        {
+        "name":"Smart Watch",
+        "category":"IT",
+        "price":"300",
+        "quantity":"400"
+        },
+        {
+            "name":"Gamer PC",
+            "category":"IT",
+            "price":"2000",
+            "quantity":"40"
+        },
+        {
+            "name":"Smart Phone",
+            "category":"IT",
+            "price":"400",
+            "quantity":"300"
+        },
+        {
+            "name":"USB",
+            "category":"IT",
+            "price":"20",
+            "quantity":"500"
+        },
+        {
+            "name":"Camera",
+            "category":"IT",
+            "price":"600",
+            "quantity":"200"
+        },
+        {
+            "name":"Mirror",
+            "category":"Decoration",
+            "price":"100",
+            "quantity":"400"
+        },
+        {
+            "name":"Vase",
+            "category":"Decoration",
+            "price":"20",
+            "quantity":"1000"
+        },
+        {
+            "name":"Poster",
+            "category":"Decoration",
+            "price":"10",
+            "quantity":"1000"
+        },
+        {
+            "name":"Showpieces",
+            "category":"Decoration",
+            "price":"40",
+            "quantity":"700"
+        },
+        {
+            "name":"Jogging Shoes",
+            "category":"Sport",
+            "price":"120",
+            "quantity":"500"
+        },
+        {
+            "name":"Ball",
+            "category":"Sport",
+            "price":"50",
+            "quantity":"2000"
+        },
+        {
+            "name":"Backpack",
+            "category":"Sport",
+            "price":"130",
+            "quantity":"300"
+        }
+    ]
+}

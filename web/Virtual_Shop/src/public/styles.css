@@ -1,0 +1,9 @@
+#articles {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar ul a {
+    text-decoration: none;
+}

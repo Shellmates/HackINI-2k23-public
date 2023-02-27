@@ -1,0 +1,20 @@
+author: souad
+author_link: https://github.com/SouadSEBAA
+category: web
+connection_info: https://upload-1.ctf.shellmates.club
+description: "> We added a verification. Bypass it.\n\n\n **Author**: souad"
+difficulty: easy
+extra:
+  decay: 15
+  initial: 500
+  minimum: 50
+files:
+- challenge.zip
+flags:
+- shellmates{PoLyg10t_F1l3s_Byp4$S}
+name: Upload 1
+state: visible
+type: dynamic
+value: 500
+version: '0.1'
+wave: 2

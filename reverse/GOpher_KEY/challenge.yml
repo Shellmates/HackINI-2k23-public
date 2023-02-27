@@ -1,0 +1,28 @@
+author: rx0f
+author_link: https://github.com/rx0f
+category: reverse
+description: '> Gopher went on a picnic but he doesn''t want you to know, can you
+  follow him and know where?.
+
+
+  **Author** : rx0f
+
+  '
+difficulty: ezmed
+extra:
+  decay: 15
+  initial: 500
+  minimum: 50
+files:
+- ./challenge/prog
+flags:
+- shellmates{1n_G0l4nG_w0rLDD}
+name: GOpher KEY
+state: visible
+tags:
+- reverse
+- programming
+type: dynamic
+value: 500
+version: '0.1'
+wave: 2

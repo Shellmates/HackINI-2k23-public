@@ -1,0 +1,23 @@
+author: r1v3nch
+author_link: https://github.com/Walid-Berrouk
+category: crypto
+description: "> Someone sent me those two weird images, can you help extract something\
+  \ from them ? somehow ?\n\n\n **Author**: r1v3nch"
+difficulty: easy
+extra:
+  decay: 15
+  initial: 500
+  minimum: 50
+files:
+- challenge/img1.png
+- challenge/img2.png
+flags:
+- shellmates{Hi!_4g4in!_6tfb2c3c}
+name: Divide_and_Conquer
+state: visible
+tags:
+- crypto
+type: dynamic
+value: 500
+version: '0.1'
+wave: 2

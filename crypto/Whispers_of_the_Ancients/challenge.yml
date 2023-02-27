@@ -1,0 +1,31 @@
+author: LaZa
+author_link: https://github.com/iAmLaZa
+category: crypto
+connection_info: ncat -v --ssl whispers-of-the-ancients.ctf.shellmates.club 443
+description: |-
+  > You are given access to a mysterious oracle known as the "Whispers of the Ancients".
+  > The oracle is said to hold the secrets of a powerful encryption technique that
+  > has been used for centuries. you must use your knowledge of cryptography and
+  > the clues provided by the oracle to determine the encryption technique
+  > and decrypt the message.
+
+
+   **Author**: LaZa
+difficulty: easy
+extra:
+  decay: 15
+  initial: 500
+  minimum: 50
+files:
+  - ./challenge/challenge.py
+flags:
+  - shellmates{v1g3N3r3_e4$y_CryTp0}
+name: Whispers_of_the_Ancients
+state: visible
+tags:
+  - crypto
+  - easy
+type: dynamic
+value: 500
+version: '0.1'
+wave: 3

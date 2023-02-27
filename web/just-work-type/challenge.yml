@@ -1,0 +1,28 @@
+author: z1p
+author_link: https://github.com/z-sohaib
+category: web
+connection_info: https://just-work-type.ctf.shellmates.club
+description: |-
+  > Login and just work type!
+  > Use the following account:
+  > username: zombo
+  > password: zombo
+
+
+   **Author**: z1p
+difficulty: easy
+extra:
+  decay: 15
+  initial: 500
+  minimum: 50
+flags:
+  - shellmates{w34k_JwT_$3CR3T}
+name: just-work-type
+state: visible
+tags:
+  - web
+  - easy
+type: dynamic
+value: 500
+version: '0.1'
+wave: 3

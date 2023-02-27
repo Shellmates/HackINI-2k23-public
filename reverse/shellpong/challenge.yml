@@ -1,0 +1,18 @@
+author: muhammad
+author_link: https://github.com/muhammedBkf
+category: reverse
+description: "> Can you beat our AI?  The first to reach 100 points wins.\n> [Link](https://drive.google.com/drive/folders/1T7e6AVAl0GWl5rxbLP4yDPaisiVJbtNP?usp=share_link)\n\
+  \n\n **Author**: muhammad"
+difficulty: ezmed
+extra:
+  decay: 15
+  initial: 500
+  minimum: 50
+flags:
+- shellmates{G4m35_h4ck1ng_15_fun}
+name: shellpong
+state: visible
+type: dynamic
+value: 500
+version: '0.1'
+wave: 2

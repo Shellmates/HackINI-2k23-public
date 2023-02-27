@@ -1,0 +1,21 @@
+author: yh_0x7
+author_link: https://www.github.com/yh-0x7
+category: crypto
+description: "> Can you decode the file???\n\n\n **Author**: yh_0x7"
+difficulty: easy
+extra:
+  decay: 15
+  initial: 500
+  minimum: 50
+files:
+- ./challenge/file.txt
+flags:
+- shellmates{b4$3$_16_32_64}
+name: BaSeS
+state: visible
+tags:
+- crypto
+type: dynamic
+value: 500
+version: '0.1'
+wave: 1

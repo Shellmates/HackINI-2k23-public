@@ -1,0 +1,24 @@
+author: ouxs-19
+author_link: https://github.com/ouxs-19
+category: crypto
+description: |-
+  > A secure random AES that can not be broken.
+
+
+   **Author**: ouxs-19
+difficulty: easy
+extra:
+  decay: 15
+  initial: 500
+  minimum: 50
+files:
+  - challenge/main.py
+  - challenge/enc
+flags:
+  - shellmates{priv4te_var1ables_BROK_MI_AES}
+name: PCryptor
+state: visible
+type: dynamic
+value: 500
+version: '0.1'
+wave: 3

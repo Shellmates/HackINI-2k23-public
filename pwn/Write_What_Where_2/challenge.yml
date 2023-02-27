@@ -1,0 +1,29 @@
+author: nirvanaK456
+author_link: https://github.com/nirvanaK456
+category: pwn
+connection_info: ncat -v --ssl write-what-where-2.ctf.shellmates.club 443
+description: '> You should always go back to the origin.
+
+
+  **Author** : nirvanaK456
+
+  '
+difficulty: hard
+extra:
+  decay: 15
+  initial: 500
+  minimum: 50
+files:
+- ./challenge/chall
+- ./src/ld-linux-x86-64.so.2
+- ./src/libc.so.6
+flags:
+- shellmates{W4W_gg_ALW4y$_FUN_tO_bYp4ss_C4NARy}
+name: Write_What_Where_2!
+state: visible
+tags:
+- hard
+type: dynamic
+value: 500
+version: '0.1'
+wave: 2

@@ -1,0 +1,21 @@
+author: souad
+author_link: https://github.com/SouadSEBAA
+category: web
+connection_info: https://upload-2.ctf.shellmates.club
+description: "> We used a blacklist now ... can you **access** the flag now?\n\n\n\
+  \ **Author**: souad"
+difficulty: medium
+extra:
+  decay: 15
+  initial: 500
+  minimum: 50
+files:
+- challenge.zip
+flags:
+- shellmates{4_No7_$O_$EcuRE_d0Cker_iMAG3_f0r_4p4ch3}
+name: Upload 2
+state: visible
+type: dynamic
+value: 500
+version: '0.1'
+wave: 2

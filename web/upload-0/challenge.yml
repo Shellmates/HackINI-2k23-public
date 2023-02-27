@@ -1,0 +1,20 @@
+author: souad
+author_link: https://github.com/SouadSEBAA
+category: web
+connection_info: https://upload-0.ctf.shellmates.club
+description: "> Let's warm up.\n\n\n **Author**: souad"
+difficulty: easy
+extra:
+  decay: 15
+  initial: 500
+  minimum: 50
+files:
+- challenge.zip
+flags:
+- shellmates{s1Mp1E_PHP_Fi1E_up1o4D_tO_W4rMUp}
+name: Upload 0
+state: visible
+type: dynamic
+value: 500
+version: '0.1'
+wave: 1

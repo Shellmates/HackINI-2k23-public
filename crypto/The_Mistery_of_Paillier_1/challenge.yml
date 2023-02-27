@@ -1,0 +1,23 @@
+author: r1v3nch
+author_link: https://github.com/Walid-Berrouk
+category: crypto
+description: |-
+  > See if you can get some secrets out of this.
+
+
+   **Author**: r1v3nch
+difficulty: easy
+extra:
+  decay: 15
+  initial: 500
+  minimum: 50
+files:
+  - ./challenge/enc
+flags:
+  - shellmates{unl0ck_th3_Mys73ry_0f_p41113r_5d8f6b}
+name: The Mistery of Paillier 1
+state: visible
+type: dynamic
+value: 500
+version: '0.1'
+wave: 3

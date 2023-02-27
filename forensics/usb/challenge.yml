@@ -1,0 +1,26 @@
+author: Chih3b
+author_link: https://github.com/Ch1h3b
+category: forensics
+description: |-
+  > Can you sniff the flag ?
+
+
+   **Author**: Chih3b
+difficulty: easy
+extra:
+  decay: 15
+  initial: 500
+  minimum: 50
+files:
+  - capture.pcapng
+flags:
+  - shellmates{usB_Dat4_gO3s_bRrRrr}
+name: USB
+state: visible
+tags:
+  - forensics
+  - pcap
+type: dynamic
+value: 500
+version: '0.1'
+wave: 3

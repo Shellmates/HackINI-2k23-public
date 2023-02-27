@@ -1,0 +1,20 @@
+author: F100w
+category: web
+connection_info: https://virtual-shop-2.ctf.shellmates.club
+description: "> I'm not making the same mistake again this time, you can't guess my\
+  \ tables now.\n   \n\n **Author**: F100w"
+difficulty: ezmed
+extra:
+  decay: 15
+  initial: 500
+  minimum: 50
+flags:
+- shellmates{iT_W4$_Not_TH4T_S3cuRE_4T_THe_END}
+name: Virtual Shop 2
+state: hidden
+tags:
+- ezmed
+- sqlite
+type: dynamic
+value: 500
+version: '0.1'

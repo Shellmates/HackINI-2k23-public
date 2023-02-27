@@ -1,0 +1,19 @@
+author: SlyPex
+author_link: https://github.com/SlyPex
+category: misc
+description: "> I made another cool banner and i added some security measures.  \n\
+  \n **Password:** ctf  \n **Author**: SlyPex\n"
+difficulty: easy
+flags:
+- shellmates{vIm_3$c4pE_&_pyth0N_lIb_hIj4cKING_cOMbO}
+name: B4nner_2
+state: visible
+tags:
+- Linux
+- Jail
+- Python
+- RTFM
+type: docker
+value: 500
+version: '0.1'
+wave: 1

@@ -1,0 +1,25 @@
+author: rx0f
+author_link: https://github.com/rx0f
+category: reverse
+description: |
+  > I used a special encoder to encode my files but i accidentatly encoded an important file, can you retrieve it for me?
+  **Author** : rx0f
+difficulty: medhard
+extra:
+  decay: 15
+  initial: 500
+  minimum: 50
+files:
+  - ./challenge/prog
+  - ./challenge/flag_encoded
+flags:
+  - shellmates{h0w_d1D_Y0u_br34K_mY_3nc0d1nG?}
+name: encod3r
+state: visible
+tags:
+  - reverse
+  - programming
+type: dynamic
+value: 500
+version: '0.1'
+wave: 3

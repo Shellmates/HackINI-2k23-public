@@ -1,0 +1,19 @@
+<html>
+    <%- include("./partials/head.ejs") %>
+    <body>
+        <%- include("./partials/navbar.ejs") %>
+        <div id="articles">
+            <% if (articles.length>0) { %>
+                <% articles.forEach(article => { %>
+                    <div class="article">
+                        <h3><%= article.name %> </h3>
+                        <span>Price: <%= article.price %></span>
+                        <span>Dispo quantity: <%= article.quantity %></span>
+                    </div>
+                <% }) %>
+            <% }else{ %> 
+                <h2>Welcome, We are still in the testing phase 2.0 !</h2>
+            <% } %>
+        </div>
+    </body>
+</html>

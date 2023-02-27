@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&family=Roboto+Mono&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+}
+
+body > div {
+    display:inline;
+    vertical-align: middle;
+}
+
+.reduce-font-size{
+    font-size: 12px;
+}
+
+.well{
+    min-height:20px;
+    padding:19px;
+    margin-bottom:20px;
+    background-color:#131517;
+    border:1px solid #030303;
+    -webkit-border-radius:2px;
+    -moz-border-radius:2px;
+    border-radius: 1%;
+    border-top:solid 1px #2f2f2f;
+    -webkit-box-shadow:0 2px 4px rgba(0,0,0,0.8);
+    -moz-box-shadow:0 2px 4px rgba(0,0,0,0.8);
+    box-shadow:0 2px 4px rgba(0,0,0,0.8)
+}
+
+.submit button{
+    border-radius:0px;
+    border:solid 0px #2f2f2f;
+    box-shadow:0 4px 8px rgba(0,0,0,0.8);
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    color: #030303;
+    background-color: #95dc1c;
+}
+
+.button-hover:hover{
+    color: white;
+}
+
+
+

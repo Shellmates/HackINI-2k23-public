@@ -1,0 +1,4 @@
+#!/bin/sh
+
+exec less /challenge/banner
+exit 0

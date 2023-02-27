@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+  b4nner:
+    container_name: misc_b4nner
+    image: b4nner:latest
+    build: .
+    ports:
+      - '1337:22'
+    deploy:
+      replicas: 1
+      restart_policy:
+        condition: on-failure
+      resources:
+        limits:
+          cpus: '0.2'
+          memory: 50M

@@ -1,0 +1,21 @@
+author: Muhammad
+category: misc
+connection_info: ncat -v --ssl weird-py.ctf.shellmates.club 443
+description: |
+  > Programming languages sometimes behave strangely ...
+  **Author** : Muhammad
+difficulty: easy
+extra:
+  decay: 15
+  initial: 500
+  minimum: 50
+files:
+  - challenge.py
+flags:
+  - shellmates{Fl0At1N_p01nT5_nUM83r5_AR3_r3alY_w311111RD}
+name: weird-py
+state: visible
+type: dynamic
+value: 500
+version: '0.1'
+wave: 3

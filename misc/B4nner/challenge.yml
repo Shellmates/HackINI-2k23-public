@@ -1,0 +1,24 @@
+author: SlyPex
+author_link: https://github.com/SlyPex
+category: misc
+connection_info: ssh ctf@b4nner.ctf.shellmates.club -o ProxyCommand="openssl s_client
+  -quiet -connect b4nner.ctf.shellmates.club:443 -servername b4nner.ctf.shellmates.club"
+description: "> I made a cool banner for the CTF, What do you think ?  \n\n**Password:**\
+  \ ctf  \n **Author**: SlyPex"
+difficulty: easy
+extra:
+  decay: 15
+  initial: 500
+  minimum: 50
+flags:
+- shellmates{y0U_D0_KNOw_7hE_LEs$_C0MmAND}
+name: B4nner
+state: visible
+tags:
+- Linux
+- Jail
+- RTFM
+type: dynamic
+value: 500
+version: '0.1'
+wave: 1

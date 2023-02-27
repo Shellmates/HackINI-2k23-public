@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>User profile</title>
+  <link rel="stylesheet" type="text/css" href="static/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="static/stylesheet.css">
+</head>
+
+
+<body>
+   <div class="container">
+      <div id="nav " class="mt-5 d-flex flex-row-reverse ">
+         <form method="post" action="logout">
+            <button type="submit" class="btn btn-secondary">Logout</button>
+         </form>
+      </div>
+      <div class="px-5 mx-5">
+         <div id="profile-info" class="mt-5 py-5 card">
+            <div id="profile-image" class="text-center">
+               <img class="img-fluid" style="background-color: white; border-radius: 50%; max-width: 30%; height: auto;" src="static/user.png">
+            </div>
+            <div class="mx-3 px-4">
+               <div class="mt-3 ">
+                     <div><h6>Username</h6></div>
+                     <div id="username"></div>
+               </div>
+               <div class="mt-3">
+                     <div><h6>Email</h6></div>
+                     <div id="email"></div>
+               </div>
+               <div class="mt-3">
+                     <div><h6>Flag</h6></div>
+                     <div id="flag">shellmates{yoU_$hOU1d_$3cuR3_Y0UR_Gr4phqL_4pI}</div>
+               </div>
+
+            </div>
+
+         </div>
+      </div>
+</body>
+
+<script src="/static/profile-script.js"></script>

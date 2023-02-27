@@ -1,0 +1,25 @@
+author: yh_0x7
+author_link: https://www.github.com/yh-0x7
+category: web
+connection_info: https://t3leport.ctf.shellmates.club
+description: |-
+  > The owner of this website is hiding smthn.
+  > Can you find it?
+
+
+   **Author**: yh_0x7
+difficulty: easy
+extra:
+  decay: 15
+  initial: 500
+  minimum: 50
+flags:
+  - shellmates{Shunkun_Ido}
+name: t3lEpoRt
+state: visible
+tags:
+  - web
+type: dynamic
+value: 500
+version: '0.1'
+wave: 3

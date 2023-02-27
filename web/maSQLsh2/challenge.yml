@@ -1,0 +1,23 @@
+author: "\u0639\u0628\u062F\u0627\u0644\u0631\u062D\u0645\u0640\u0670\u0646"
+author_link: github.com/abdelmaoo
+category: web
+connection_info: https://masqlsh2.ctf.shellmates.club
+description: "> I fixed my secure app, now there is no way you can get the flag.\n\
+  \n\n **Author**: \u0639\u0628\u062F\u0627\u0644\u0631\u062D\u0645\u0640\u0670\u0646"
+difficulty: medhard
+extra:
+  decay: 15
+  initial: 500
+  minimum: 50
+files:
+- ./maSQLsh2_files.zip
+flags:
+- shellmates{n05Ql_r3G3xe_c4N_b3_d4nG3r0u5}
+name: maSQLsh2
+state: visible
+tags:
+- web
+type: dynamic
+value: 500
+version: '0.1'
+wave: 2

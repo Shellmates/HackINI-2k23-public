@@ -1,0 +1,1 @@
+flag = "shellmates{gg_Y0U_BRoK3_My_L0G1c_D0Wn}"

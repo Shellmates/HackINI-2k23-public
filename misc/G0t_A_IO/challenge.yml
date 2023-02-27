@@ -1,0 +1,25 @@
+author: SlyPex
+author_link: https://github.com/SlyPex
+category: misc
+description: '> Just some old memories between **Me** and @niiirvox
+
+
+  **Author** : SlyPex
+
+  '
+difficulty: ezmed
+extra:
+  decay: 15
+  initial: 500
+  minimum: 50
+flags:
+- shellmates{y0U_7rUely_g0T_$0M3_0S1NT_$k1ll$}
+name: G0t_A_I/O
+state: visible
+tags:
+- OSINT
+- Easy
+type: dynamic
+value: 500
+version: '0.1'
+wave: 2

@@ -1,0 +1,24 @@
+author: "\u0639\u0628\u062F\u0627\u0644\u0631\u062D\u0645\u0640\u0670\u0646"
+author_link: github.com/abdelmaoo
+category: web
+connection_info: https://masqlsh.ctf.shellmates.club
+description: "> I made this super secure app, I am 100% sure that no SQL injection\
+  \ is possible.\n\n\n **Author**: \u0639\u0628\u062F\u0627\u0644\u0631\u062D\u0645\
+  \u0640\u0670\u0646"
+difficulty: ezmed
+extra:
+  decay: 15
+  initial: 500
+  minimum: 50
+files:
+- ./maSQLsh_files.zip
+flags:
+- shellmates{n05Ql_iSnt+4s=s3Cur3-4s_y0u_Th0ught}
+name: maSQLsh
+state: visible
+tags:
+- web
+type: dynamic
+value: 500
+version: '0.1'
+wave: 1

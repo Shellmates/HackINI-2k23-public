@@ -1,0 +1,15 @@
+version: '3.3'
+
+services:
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: shared
+    ports:
+      - '2000:22'
+    deploy:
+      replicas: 1
+      restart_policy:
+        condition: on-failure

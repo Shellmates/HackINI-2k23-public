@@ -1,0 +1,22 @@
+author: F100w
+category: crypto
+description: "> I created my own cipher ... Can you break it ?\n\n\n **Author**: F100w"
+difficulty: ezmed
+extra:
+  decay: 15
+  initial: 500
+  minimum: 50
+files:
+- ./src/challenge.py
+- ./enc.bin
+flags:
+- shellmates{gg_Y0U_BRoK3_My_L0G1c_D0Wn}
+name: MyCipher
+state: visible
+tags:
+- ezmed
+- RSA
+type: dynamic
+value: 500
+version: '0.1'
+wave: 2

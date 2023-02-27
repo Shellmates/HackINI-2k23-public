@@ -1,0 +1,25 @@
+author: F100w
+category: pwn
+connection_info: ncat -v --ssl basic-ret2libc.ctf.shellmates.club 443
+description: "> Do you know libc ? It has a bunch of useful stuff !\n\n\n **Author**:\
+  \ F100w"
+difficulty: easy
+extra:
+  decay: 15
+  initial: 500
+  minimum: 50
+files:
+- ./challenge/chall
+- ./src/libc.so.6
+- ./src/ld-linux.so.2
+flags:
+- shellmates{ret2liBc_1$_A_l33T_4tT4ck}
+name: Basic ret2libc
+state: visible
+tags:
+- easy
+- ret2libc
+type: dynamic
+value: 500
+version: '0.1'
+wave: 1

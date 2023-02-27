@@ -1,0 +1,19 @@
+author: Chih3b
+author_link: https://github.com/Ch1h3b
+category: forensics
+description: "> Our production server got hacked. As a soc analyst you are tasked\
+  \ with cleaning the server.\n> Deleting and moving around files at random is not\
+  \ the right solution.\n> You can validate the challenge as root, with /root/validate.\n\
+  \n **Password**: ctf\n**Author**: Chih3b"
+difficulty: medhard
+flags:
+- shellmates{C4lL_m3_B4Ckd00r_C!e4n3rrrrr}
+name: Infection
+state: visible
+tags:
+- forensics
+- DFIR
+type: docker
+value: 500
+version: '0.1'
+wave: 2

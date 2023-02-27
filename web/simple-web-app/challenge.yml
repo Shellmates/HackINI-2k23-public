@@ -1,0 +1,22 @@
+author: souad
+author_link: https://github.com/SouadSEBAA
+category: web
+connection_info: https://simple-web-app.ctf.shellmates.club
+description: "> Yet another injection.\n\n\n **Author**: souad"
+difficulty: medium
+extra:
+  decay: 15
+  initial: 500
+  minimum: 50
+flags:
+- shellmates{yoU_$hOU1d_$3cuR3_Y0UR_Gr4phqL_4pI}
+name: simple web app
+state: visible
+tags:
+- medium
+topics:
+- graphql injection
+type: dynamic
+value: 500
+version: '0.1'
+wave: 1

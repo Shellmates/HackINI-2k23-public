@@ -1,0 +1,25 @@
+author: Chih3b
+author_link: https://github.com/Ch1h3b
+category: misc
+connection_info: ssh ctf@sharing-is-caring.ctf.shellmates.club -o ProxyCommand="openssl
+  s_client -quiet -connect sharing-is-caring.ctf.shellmates.club:443 -servername sharing-is-caring.ctf.shellmates.club"
+description: "> I left the flag right there for you :)\n\n**Password**: ctf\n\n **Author**:\
+  \ Chih3b"
+difficulty: medium
+extra:
+  decay: 15
+  initial: 500
+  minimum: 50
+files:
+- challenge/program
+flags:
+- shellmates{PL41N_1N_M3M0Ry}
+name: Sharing is caring
+state: visible
+tags:
+- misc
+- memory
+type: dynamic
+value: 500
+version: '0.1'
+wave: 2

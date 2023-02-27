@@ -1,0 +1,24 @@
+author: Chih3b
+author_link: https://github.com/Ch1h3b
+category: forensics
+description: "> The first char of the flag is in packet 1, the second in packet 2,\
+  \ the thrid in packet 3, the fourth in packet 5, the fifth in packet 8...\n\n\n\
+  \ **Author**: Chih3b"
+difficulty: easy
+extra:
+  decay: 15
+  initial: 500
+  minimum: 50
+files:
+- fibonatcp.pcapng
+flags:
+- shellmates{F!b0Oo0}
+name: Fibonatcp
+state: visible
+tags:
+- forensics
+- pcap
+type: dynamic
+value: 500
+version: '0.1'
+wave: 2

@@ -1,0 +1,25 @@
+author: F100w
+category: pwn
+connection-info: null
+connection_info: ncat -v --ssl write-what-where.ctf.shellmates.club 443
+description: "> The path is clear, But, do you know how to get there ?\n\n\n **Author**:\
+  \ F100w"
+difficulty: medium
+extra:
+  decay: 15
+  initial: 500
+  minimum: 50
+files:
+- ./challenge/chall
+- ./src/challenge.c
+flags:
+- shellmates{134k_7h3N_D3bU5_7h3n_0ff$e7_7h3n_F0rM47_tH3N_$uuuui}
+name: Write_What_Where!
+state: visible
+tags:
+- medium
+- format
+type: dynamic
+value: 500
+version: '0.1'
+wave: 2

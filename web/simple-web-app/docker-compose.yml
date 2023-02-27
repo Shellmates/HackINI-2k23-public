@@ -1,0 +1,7 @@
+services:
+  app:
+    image: graphql-injection-image
+    build: .
+    container_name: graphql-injection-container
+    ports:
+      - 1337:3001

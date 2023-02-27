@@ -1,0 +1,27 @@
+author: Chih3b
+author_link: https://github.com/Ch1h3b
+category: forensics
+description: |-
+  > I tried to install a free version of COD that works in Ubuntu, now all my files are encrypted :(
+  > Try to recover my favourite image please.
+    NOTE : CAUTION WHEN PLAYING THE CHALLENGE USE THE /TMP DIR FOR NO POSSIBLE LOSS OF DATA.
+
+   **Author**: Chih3b
+difficulty: medium
+extra:
+  decay: 15
+  initial: 500
+  minimum: 50
+files:
+  - flag.png.enc
+flags:
+  - shellmates{I_r3ally_wanteD_t0_play_codcodcod}
+name: Jack the Paster
+state: visible
+tags:
+  - forensics
+  - DFIR
+type: dynamic
+value: 500
+version: '0.1'
+wave: 3

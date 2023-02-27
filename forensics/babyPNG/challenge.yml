@@ -1,0 +1,23 @@
+author: Chih3b
+author_link: https://github.com/Ch1h3b
+category: forensics
+description: "> Here is a riddle for you!\n> What has no beginning nor has it end?\n\
+  \n\n **Author**: Chih3b"
+difficulty: easy
+extra:
+  decay: 15
+  initial: 500
+  minimum: 50
+files:
+- challenge/flag.png
+flags:
+- shellmates{y3t_4NoT4ER_pNG_c4AllEng3}
+name: babyPNG
+state: visible
+tags:
+- forensics
+- png
+type: dynamic
+value: 500
+version: '0.1'
+wave: 1

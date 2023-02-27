@@ -1,0 +1,27 @@
+author: rx0f
+author_link: https://github.com/rx0f
+category: reverse
+description: '> I''ve heard you know assembly, can you prove it?
+
+
+  **Author** : rx0f
+
+  '
+difficulty: easy
+extra:
+  decay: 15
+  initial: 500
+  minimum: 50
+files:
+- ./challenge/main.S
+flags:
+- shellmates{Y0u_r34aly_kN0w_4ss3MBlY}
+name: a55embl3
+state: visible
+tags:
+- reverse
+- programming
+type: dynamic
+value: 500
+version: '0.1'
+wave: 1

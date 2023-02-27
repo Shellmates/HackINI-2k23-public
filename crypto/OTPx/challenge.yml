@@ -1,0 +1,23 @@
+author: LaZa
+author_link: https://github.com/iAmLaZa
+category: crypto
+connection_info: ncat -v --ssl otp.ctf.shellmates.club 443
+description: "> try to decrypt ,easyyyy\n> I dare you to do it\n\n\n **Author**: LaZa"
+difficulty: easy
+extra:
+  decay: 15
+  initial: 500
+  minimum: 50
+files:
+- ./challenge/challenge.py
+flags:
+- shellmates{oNE-TIme_PAD_oTp_xor}
+name: OTPx
+state: visible
+tags:
+- crypto
+- easy
+type: dynamic
+value: 500
+version: '0.1'
+wave: 2

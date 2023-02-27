@@ -1,0 +1,25 @@
+author: Chih3b
+author_link: https://github.com/Ch1h3b
+category: forensics
+description: "> The it team are pretty sure that the headmaster got hacked again when\
+  \ they found a stranged device attached to his PC.\n> Here is a memory dump, identify\
+  \ the CVE used by the hacker, along with the username:password used for persistence.\n\
+  > Flag format: shellmates{CVE-xxxx-yyyy:username:password}\n\n\n **Author**: Chih3b"
+difficulty: medium
+extra:
+  decay: 15
+  initial: 500
+  minimum: 50
+files:
+- dump
+flags:
+- shellmates{CVE-2021-4034:systemdd:YUIONHBY}
+name: picoCTF
+state: visible
+tags:
+- forensics
+- DFIR
+type: dynamic
+value: 500
+version: '0.1'
+wave: 1

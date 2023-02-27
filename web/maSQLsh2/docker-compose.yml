@@ -1,0 +1,6 @@
+version: '0.1'
+services:
+  app:
+    build: .
+    ports:
+      - "5000:5000"

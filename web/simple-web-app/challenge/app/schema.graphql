@@ -1,0 +1,28 @@
+enum Role {
+    ADMIN
+    USER
+    MODERATOR
+}
+
+type User {
+    email: String ,
+    username: String! ,
+    password: String! ,
+    role: Role,
+    # isAdmin: Boolean! ,
+    # make a role enum with : admin, teacher, student
+}
+
+type AuthResponse {
+    success: Boolean!,
+    token: String,
+}
+
+type Query {
+    user: User,
+}
+
+type Mutation {
+    addUser(username: String!, password: String!, email: String!, role: Role = USER): Boolean,
+    authUser(username: String!, password: String!): AuthResponse,
+}

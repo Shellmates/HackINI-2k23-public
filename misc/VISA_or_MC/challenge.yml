@@ -1,0 +1,27 @@
+author: m0kr4n3
+author_link: https://github.com/m0kr4n3
+category: misc
+description: |
+  > I've stolen a lot of credit cards from my friends,
+  > but I don't know which one is a VISA and which one
+  > is a MasterCard. Can you help me?
+
+  **Author**: m0kr4n3
+difficulty: easy
+extra:
+  decay: 15
+  initial: 500
+  minimum: 50
+files:
+  - ./challenge/cards.txt
+flags:
+  - shellmates{V15a_0r_M4573rC4rd_101}
+name: VISA_or_MC
+state: visible
+tags:
+  - misc
+  - encoding
+type: dynamic
+value: 500
+version: '0.1'
+wave: 3

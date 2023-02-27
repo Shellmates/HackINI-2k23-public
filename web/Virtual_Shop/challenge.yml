@@ -1,0 +1,22 @@
+author: F100w
+category: web
+connection_info: https://virtual-shop.ctf.shellmates.club
+description: "> So, let's see if you can retrieve the `password` of the admin which\
+  \ `username` is 'admin' among all the available `users` in the db\n\n\n **Author**:\
+  \ F100w"
+difficulty: easy
+extra:
+  decay: 15
+  initial: 500
+  minimum: 50
+flags:
+- shellmates{Gg_b0Y_you_kNOW_w3ll_H0w_T0_uSe_uNiOn_4tTacK}
+name: Virtual Shop
+state: visible
+tags:
+- easy
+- sql
+type: dynamic
+value: 500
+version: '0.1'
+wave: 3

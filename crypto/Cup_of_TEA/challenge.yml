@@ -1,0 +1,31 @@
+author: m0kr4n3
+author_link: https://github.com/m0kr4n3
+category: crypto
+description: '> Here is a cup of tea that has been brewed with a secret recipe.
+
+  > can you find the recipe and determine the ingredients that were
+
+  > used to brew the tea.
+
+
+  **Author**: m0kr4n3
+
+  '
+difficulty: ezmed
+extra:
+  decay: 15
+  initial: 500
+  minimum: 50
+files:
+- ./challenge/challenge.py
+- ./challenge/config.py
+flags:
+- shellmates{TEA_1s_t45tY!_7f1a2b3c}
+name: Cup_of_TEA
+state: visible
+tags:
+- crypto
+type: dynamic
+value: 500
+version: '0.1'
+wave: 1
